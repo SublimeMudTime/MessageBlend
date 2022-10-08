@@ -7,6 +7,7 @@ Blend your messages into a stream!
 Each message can be tagged with a 16-bit "channel" number, and message boundaries are well-preserved.
 
 It's implemented using the COBS algorithm, so it has a predictable overhead ratio, and resistant to link errors. The COBS implementation is available as a separate library.
+https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 
 It works with any stream-oriented digital data transportation with byte as the minimal data unit, such as serial links (UART/RS232), TCP connections, etc.
 
